@@ -10,6 +10,8 @@ will rebuild based on mtimes (see <https://github.com/rust-lang/cargo/issues/652
 is undesirable is pulling a project via git in CI, as that will alter the mtime values and therefore normally trigger
 a rebuild, even if you may already have cached the build artifacts from a prior CI run.
 
+This is archived for now as of 2026-06-12, as it is basically feature complete for its original use case.
+
 ## Installation
 
 You can install mtime-travel via `cargo`:
